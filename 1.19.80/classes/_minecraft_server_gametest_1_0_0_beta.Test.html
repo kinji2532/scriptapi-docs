@@ -27,7 +27,7 @@ the GameTest structure block.</p>
 <ul class="tsd-hierarchy">
 <li><span class="target">Test</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L853">@minecraft/server-gametest@1.0.0-beta.d.ts:853</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L853">@minecraft/server-gametest@1.0.0-beta.d.ts:853</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -115,7 +115,7 @@ the GameTest structure block.</p>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_gametest_1_0_0_beta.Test.html" class="tsd-signature-type tsd-kind-class">Test</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L854">@minecraft/server-gametest@1.0.0-beta.d.ts:854</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L854">@minecraft/server-gametest@1.0.0-beta.d.ts:854</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member"><a id="assert" class="tsd-anchor"></a>
@@ -144,7 +144,7 @@ to true.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L869">@minecraft/server-gametest@1.0.0-beta.d.ts:869</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L869">@minecraft/server-gametest@1.0.0-beta.d.ts:869</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertBlockPresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Block<wbr/>Present</span><a href="#assertBlockPresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -176,7 +176,7 @@ block of the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L887">@minecraft/server-gametest@1.0.0-beta.d.ts:887</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L887">@minecraft/server-gametest@1.0.0-beta.d.ts:887</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertBlockState" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Block<wbr/>State</span><a href="#assertBlockState" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -191,7 +191,7 @@ exception is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>testIfButtonNotPressed.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertBlockState</span><span class="hl-0">(</span><span class="hl-3">buttonPos</span><span class="hl-0">, (</span><span class="hl-3">block</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-6">return</span><span class="hl-0"> </span><span class="hl-3">block</span><span class="hl-0">.</span><span class="hl-3">permutation</span><span class="hl-0">.</span><span class="hl-4">getProperty</span><span class="hl-0">(</span><span class="hl-2">&quot;button_pressed_bit&quot;</span><span class="hl-0">) == </span><span class="hl-7">0</span><span class="hl-0">;</span><br/><span class="hl-0">       });</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertBlockState</span><span class="hl-0">(</span><span class="hl-6">buttonPos</span><span class="hl-0">, (</span><span class="hl-6">block</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-10">return</span><span class="hl-0"> </span><span class="hl-6">block</span><span class="hl-0">.</span><span class="hl-6">permutation</span><span class="hl-0">.</span><span class="hl-8">getProperty</span><span class="hl-0">(</span><span class="hl-2">&quot;button_pressed_bit&quot;</span><span class="hl-0">) == </span><span class="hl-7">0</span><span class="hl-0">;</span><br/><span class="hl-0">       });</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -219,7 +219,7 @@ the block at the specified location.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L914">@minecraft/server-gametest@1.0.0-beta.d.ts:914</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L914">@minecraft/server-gametest@1.0.0-beta.d.ts:914</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertCanReachLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Can<wbr/>Reach<wbr/>Location</span><a href="#assertCanReachLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -253,7 +253,7 @@ location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L934">@minecraft/server-gametest@1.0.0-beta.d.ts:934</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L934">@minecraft/server-gametest@1.0.0-beta.d.ts:934</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertContainerContains" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Container<wbr/>Contains</span><a href="#assertContainerContains" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -283,7 +283,7 @@ chest) to test the contents of.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L956">@minecraft/server-gametest@1.0.0-beta.d.ts:956</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L956">@minecraft/server-gametest@1.0.0-beta.d.ts:956</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertContainerEmpty" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Container<wbr/>Empty</span><a href="#assertContainerEmpty" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -306,7 +306,7 @@ chest) to test is empty of contents.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L969">@minecraft/server-gametest@1.0.0-beta.d.ts:969</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L969">@minecraft/server-gametest@1.0.0-beta.d.ts:969</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityHasArmor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Has<wbr/>Armor</span><a href="#assertEntityHasArmor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -320,7 +320,7 @@ If not, an error is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>horseArmorTest.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityHasArmor</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:horse&quot;</span><span class="hl-0">, </span><span class="hl-3">armorSlotTorso</span><span class="hl-0">, </span><span class="hl-2">&quot;diamond_horse_armor&quot;</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">, </span><span class="hl-3">horseLocation</span><span class="hl-0">, </span><span class="hl-5">true</span><span class="hl-0">);</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityHasArmor</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:horse&quot;</span><span class="hl-0">, </span><span class="hl-6">armorSlotTorso</span><span class="hl-0">, </span><span class="hl-2">&quot;diamond_horse_armor&quot;</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">, </span><span class="hl-6">horseLocation</span><span class="hl-0">, </span><span class="hl-3">true</span><span class="hl-0">);</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -354,7 +354,7 @@ armor equipped.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L998">@minecraft/server-gametest@1.0.0-beta.d.ts:998</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L998">@minecraft/server-gametest@1.0.0-beta.d.ts:998</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityHasComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Has<wbr/>Component</span><a href="#assertEntityHasComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -368,7 +368,7 @@ exception is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>sheepShearedTest.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityHasComponent</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:sheep&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;minecraft:is_sheared&quot;</span><span class="hl-0">, </span><span class="hl-3">entityLoc</span><span class="hl-0">, </span><span class="hl-5">false</span><span class="hl-0">);</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityHasComponent</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:sheep&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;minecraft:is_sheared&quot;</span><span class="hl-0">, </span><span class="hl-6">entityLoc</span><span class="hl-0">, </span><span class="hl-3">false</span><span class="hl-0">);</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -397,7 +397,7 @@ does not.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1033">@minecraft/server-gametest@1.0.0-beta.d.ts:1033</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1033">@minecraft/server-gametest@1.0.0-beta.d.ts:1033</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityInstancePresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Instance<wbr/>Present</span><a href="#assertEntityInstancePresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -430,7 +430,7 @@ the specified location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1057">@minecraft/server-gametest@1.0.0-beta.d.ts:1057</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1057">@minecraft/server-gametest@1.0.0-beta.d.ts:1057</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityInstancePresentInArea" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Instance<wbr/>Present<wbr/>In<wbr/>Area</span><a href="#assertEntityInstancePresentInArea" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -444,7 +444,7 @@ area. If not, an exception is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>simpleMobTest.ts</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">gt</span><span class="hl-0">.</span><span class="hl-4">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-3">test</span><span class="hl-0">: </span><span class="hl-8">gt</span><span class="hl-0">.</span><span class="hl-8">Test</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">attackerId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-5">let</span><span class="hl-0"> </span><span class="hl-3">victim</span><span class="hl-0"> = </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityInstancePresentInArea</span><span class="hl-0">(</span><span class="hl-3">victim</span><span class="hl-0">, </span><span class="hl-5">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">succeedWhen</span><span class="hl-0">(() </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityInstancePresentInArea</span><span class="hl-0">(</span><span class="hl-3">victim</span><span class="hl-0">, </span><span class="hl-5">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-4">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-4">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">gt</span><span class="hl-0">.</span><span class="hl-8">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-6">test</span><span class="hl-0">: </span><span class="hl-5">gt</span><span class="hl-0">.</span><span class="hl-5">Test</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">attackerId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-3">let</span><span class="hl-0"> </span><span class="hl-6">victim</span><span class="hl-0"> = </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityInstancePresentInArea</span><span class="hl-0">(</span><span class="hl-6">victim</span><span class="hl-0">, </span><span class="hl-3">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">succeedWhen</span><span class="hl-0">(() </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityInstancePresentInArea</span><span class="hl-0">(</span><span class="hl-6">victim</span><span class="hl-0">, </span><span class="hl-3">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-8">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-8">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -462,7 +462,7 @@ specified entity is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1097">@minecraft/server-gametest@1.0.0-beta.d.ts:1097</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1097">@minecraft/server-gametest@1.0.0-beta.d.ts:1097</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityPresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Present</span><a href="#assertEntityPresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -503,7 +503,7 @@ the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1122">@minecraft/server-gametest@1.0.0-beta.d.ts:1122</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1122">@minecraft/server-gametest@1.0.0-beta.d.ts:1122</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityPresentInArea" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Present<wbr/>In<wbr/>Area</span><a href="#assertEntityPresentInArea" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -517,7 +517,7 @@ the GameTest area. If not, an exception is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>simpleMobTest.ts</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">gt</span><span class="hl-0">.</span><span class="hl-4">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-3">test</span><span class="hl-0">: </span><span class="hl-8">gt</span><span class="hl-0">.</span><span class="hl-8">Test</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">attackerId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">succeedWhen</span><span class="hl-0">(() </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-4">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-4">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">gt</span><span class="hl-0">.</span><span class="hl-8">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-6">test</span><span class="hl-0">: </span><span class="hl-5">gt</span><span class="hl-0">.</span><span class="hl-5">Test</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">attackerId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">succeedWhen</span><span class="hl-0">(() </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-8">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-8">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -537,7 +537,7 @@ tests that an entity of the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1165">@minecraft/server-gametest@1.0.0-beta.d.ts:1165</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1165">@minecraft/server-gametest@1.0.0-beta.d.ts:1165</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityState" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>State</span><a href="#assertEntityState" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -552,7 +552,7 @@ thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>villagerEffectTest.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityState</span><span class="hl-0">(</span><br/><span class="hl-0">         </span><span class="hl-3">villagerPos</span><span class="hl-0">,</span><br/><span class="hl-0">         </span><span class="hl-2">&quot;minecraft:villager_v2&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">         (</span><span class="hl-3">entity</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> </span><span class="hl-3">entity</span><span class="hl-0">.</span><span class="hl-4">getEffect</span><span class="hl-0">(</span><span class="hl-3">MinecraftEffectTypes</span><span class="hl-0">.</span><span class="hl-3">regeneration</span><span class="hl-0">).</span><span class="hl-3">duration</span><span class="hl-0"> &gt; </span><span class="hl-7">120</span><br/><span class="hl-0">       ); </span><span class="hl-10">// At least 6 seconds remaining in the villagers&#39; effect</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityState</span><span class="hl-0">(</span><br/><span class="hl-0">         </span><span class="hl-6">villagerPos</span><span class="hl-0">,</span><br/><span class="hl-0">         </span><span class="hl-2">&quot;minecraft:villager_v2&quot;</span><span class="hl-0">,</span><br/><span class="hl-0">         (</span><span class="hl-6">entity</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> </span><span class="hl-6">entity</span><span class="hl-0">.</span><span class="hl-8">getEffect</span><span class="hl-0">(</span><span class="hl-6">MinecraftEffectTypes</span><span class="hl-0">.</span><span class="hl-6">regeneration</span><span class="hl-0">).</span><span class="hl-6">duration</span><span class="hl-0"> &gt; </span><span class="hl-7">120</span><br/><span class="hl-0">       ); </span><span class="hl-9">// At least 6 seconds remaining in the villagers&#39; effect</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -588,7 +588,7 @@ is thrown.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1196">@minecraft/server-gametest@1.0.0-beta.d.ts:1196</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1196">@minecraft/server-gametest@1.0.0-beta.d.ts:1196</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertEntityTouching" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Entity<wbr/>Touching</span><a href="#assertEntityTouching" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -623,7 +623,7 @@ not testing the specified location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1221">@minecraft/server-gametest@1.0.0-beta.d.ts:1221</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1221">@minecraft/server-gametest@1.0.0-beta.d.ts:1221</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertIsWaterlogged" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Is<wbr/>Waterlogged</span><a href="#assertIsWaterlogged" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -652,7 +652,7 @@ be waterlogged.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1238">@minecraft/server-gametest@1.0.0-beta.d.ts:1238</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1238">@minecraft/server-gametest@1.0.0-beta.d.ts:1238</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertItemEntityCountIs" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Item<wbr/>Entity<wbr/>Count<wbr/>Is</span><a href="#assertItemEntityCountIs" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -666,7 +666,7 @@ within an area. If not, an error is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>findFeathers.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertItemEntityCountIs</span><span class="hl-0">(</span><span class="hl-3">Items</span><span class="hl-0">.</span><span class="hl-3">feather</span><span class="hl-0">, </span><span class="hl-3">expectedFeatherLoc</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">, </span><span class="hl-7">1</span><span class="hl-0">);</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertItemEntityCountIs</span><span class="hl-0">(</span><span class="hl-6">Items</span><span class="hl-0">.</span><span class="hl-6">feather</span><span class="hl-0">, </span><span class="hl-6">expectedFeatherLoc</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">, </span><span class="hl-7">1</span><span class="hl-0">);</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -691,7 +691,7 @@ within an area. If not, an error is thrown.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1262">@minecraft/server-gametest@1.0.0-beta.d.ts:1262</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1262">@minecraft/server-gametest@1.0.0-beta.d.ts:1262</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertItemEntityPresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Item<wbr/>Entity<wbr/>Present</span><a href="#assertItemEntityPresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -729,7 +729,7 @@ entity of the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1289">@minecraft/server-gametest@1.0.0-beta.d.ts:1289</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1289">@minecraft/server-gametest@1.0.0-beta.d.ts:1289</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="assertRedstonePower" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>assert<wbr/>Redstone<wbr/>Power</span><a href="#assertRedstonePower" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -755,7 +755,7 @@ particular value. If not, an exception is thrown.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1308">@minecraft/server-gametest@1.0.0-beta.d.ts:1308</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1308">@minecraft/server-gametest@1.0.0-beta.d.ts:1308</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="destroyBlock" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>destroy<wbr/>Block</span><a href="#destroyBlock" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -780,7 +780,7 @@ particular value. If not, an exception is thrown.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1321">@minecraft/server-gametest@1.0.0-beta.d.ts:1321</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1321">@minecraft/server-gametest@1.0.0-beta.d.ts:1321</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="fail" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>fail</span><a href="#fail" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -801,7 +801,7 @@ particular value. If not, an exception is thrown.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1332">@minecraft/server-gametest@1.0.0-beta.d.ts:1332</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1332">@minecraft/server-gametest@1.0.0-beta.d.ts:1332</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="failIf" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>fail<wbr/>If</span><a href="#failIf" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -831,7 +831,7 @@ this function will have .assertXyz method calls within it.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1346">@minecraft/server-gametest@1.0.0-beta.d.ts:1346</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1346">@minecraft/server-gametest@1.0.0-beta.d.ts:1346</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getBlock" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Block</span><a href="#getBlock" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -852,7 +852,7 @@ this function will have .assertXyz method calls within it.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Block.html" class="tsd-signature-type tsd-kind-class">Block</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1357">@minecraft/server-gametest@1.0.0-beta.d.ts:1357</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1357">@minecraft/server-gametest@1.0.0-beta.d.ts:1357</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getDimension" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Dimension</span><a href="#getDimension" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -866,7 +866,7 @@ this function will have .assertXyz method calls within it.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Dimension.html" class="tsd-signature-type tsd-kind-class">Dimension</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1366">@minecraft/server-gametest@1.0.0-beta.d.ts:1366</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1366">@minecraft/server-gametest@1.0.0-beta.d.ts:1366</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getFenceConnectivity" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Fence<wbr/>Connectivity</span><a href="#getFenceConnectivity" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -889,7 +889,7 @@ connected.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_gametest_1_0_0_beta.FenceConnectivity.html" class="tsd-signature-type tsd-kind-class">FenceConnectivity</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1379">@minecraft/server-gametest@1.0.0-beta.d.ts:1379</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1379">@minecraft/server-gametest@1.0.0-beta.d.ts:1379</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getSculkSpreader" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Sculk<wbr/>Spreader</span><a href="#getSculkSpreader" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -911,7 +911,7 @@ control and manage how sculk grows from a block.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_gametest_1_0_0_beta.SculkSpreader.html" class="tsd-signature-type tsd-kind-class">SculkSpreader</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1391">@minecraft/server-gametest@1.0.0-beta.d.ts:1391</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1391">@minecraft/server-gametest@1.0.0-beta.d.ts:1391</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getTestDirection" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Test<wbr/>Direction</span><a href="#getTestDirection" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -924,7 +924,7 @@ potential values (north, east, south, west - values 2-5).</p>
 </div>
 <h4 class="tsd-returns-title">Returns <a href="../enums/_minecraft_server_1_2_0_beta.Direction.html" class="tsd-signature-type tsd-kind-enum">Direction</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1401">@minecraft/server-gametest@1.0.0-beta.d.ts:1401</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1401">@minecraft/server-gametest@1.0.0-beta.d.ts:1401</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="idle" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>idle</span><a href="#idle" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -944,7 +944,7 @@ in ticks before continuing execution.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1412">@minecraft/server-gametest@1.0.0-beta.d.ts:1412</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1412">@minecraft/server-gametest@1.0.0-beta.d.ts:1412</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="killAllEntities" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>kill<wbr/>All<wbr/>Entities</span><a href="#killAllEntities" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -958,7 +958,7 @@ in ticks before continuing execution.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1421">@minecraft/server-gametest@1.0.0-beta.d.ts:1421</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1421">@minecraft/server-gametest@1.0.0-beta.d.ts:1421</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="onPlayerJump" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>on<wbr/>Player<wbr/>Jump</span><a href="#onPlayerJump" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -978,7 +978,7 @@ in ticks before continuing execution.</p>
 <h5><span class="tsd-kind-parameter">jumpAmount</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1428">@minecraft/server-gametest@1.0.0-beta.d.ts:1428</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1428">@minecraft/server-gametest@1.0.0-beta.d.ts:1428</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="pressButton" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>press<wbr/>Button</span><a href="#pressButton" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1000,7 +1000,7 @@ specified position.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1441">@minecraft/server-gametest@1.0.0-beta.d.ts:1441</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1441">@minecraft/server-gametest@1.0.0-beta.d.ts:1441</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="print" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>print</span><a href="#print" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1021,7 +1021,7 @@ specified position.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1452">@minecraft/server-gametest@1.0.0-beta.d.ts:1452</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1452">@minecraft/server-gametest@1.0.0-beta.d.ts:1452</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="pullLever" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>pull<wbr/>Lever</span><a href="#pullLever" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1043,7 +1043,7 @@ specified position.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1465">@minecraft/server-gametest@1.0.0-beta.d.ts:1465</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1465">@minecraft/server-gametest@1.0.0-beta.d.ts:1465</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="pulseRedstone" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>pulse<wbr/>Redstone</span><a href="#pulseRedstone" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1069,7 +1069,7 @@ a temporary Redstone block.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1479">@minecraft/server-gametest@1.0.0-beta.d.ts:1479</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1479">@minecraft/server-gametest@1.0.0-beta.d.ts:1479</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="relativeBlockLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>relative<wbr/>Block<wbr/>Location</span><a href="#relativeBlockLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1096,7 +1096,7 @@ location.</p>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/_minecraft_server_1_2_0_beta.Vector3.html" class="tsd-signature-type tsd-kind-interface">Vector3</a></h4><p>A location relative to the GameTest command block.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1497">@minecraft/server-gametest@1.0.0-beta.d.ts:1497</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1497">@minecraft/server-gametest@1.0.0-beta.d.ts:1497</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="relativeLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>relative<wbr/>Location</span><a href="#relativeLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1123,7 +1123,7 @@ location.</p>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/_minecraft_server_1_2_0_beta.Vector3.html" class="tsd-signature-type tsd-kind-interface">Vector3</a></h4><p>A location relative to the GameTest command block.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1515">@minecraft/server-gametest@1.0.0-beta.d.ts:1515</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1515">@minecraft/server-gametest@1.0.0-beta.d.ts:1515</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="removeSimulatedPlayer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>Simulated<wbr/>Player</span><a href="#removeSimulatedPlayer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1142,7 +1142,7 @@ location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1525">@minecraft/server-gametest@1.0.0-beta.d.ts:1525</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1525">@minecraft/server-gametest@1.0.0-beta.d.ts:1525</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="rotateDirection" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>rotate<wbr/>Direction</span><a href="#rotateDirection" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1169,7 +1169,7 @@ opposite of the test direction, and so on.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="../enums/_minecraft_server_1_2_0_beta.Direction.html" class="tsd-signature-type tsd-kind-enum">Direction</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1542">@minecraft/server-gametest@1.0.0-beta.d.ts:1542</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1542">@minecraft/server-gametest@1.0.0-beta.d.ts:1542</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="rotateVector" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>rotate<wbr/>Vector</span><a href="#rotateVector" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1187,7 +1187,7 @@ opposite of the test direction, and so on.</p>
 <h5><span class="tsd-kind-parameter">vector</span>: <a href="_minecraft_server_1_2_0_beta.Vector.html" class="tsd-signature-type tsd-kind-class">Vector</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Vector.html" class="tsd-signature-type tsd-kind-class">Vector</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1549">@minecraft/server-gametest@1.0.0-beta.d.ts:1549</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1549">@minecraft/server-gametest@1.0.0-beta.d.ts:1549</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="runAfterDelay" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>run<wbr/>After<wbr/>Delay</span><a href="#runAfterDelay" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1219,7 +1219,7 @@ callback.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1563">@minecraft/server-gametest@1.0.0-beta.d.ts:1563</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1563">@minecraft/server-gametest@1.0.0-beta.d.ts:1563</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="runAtTickTime" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>run<wbr/>At<wbr/>Tick<wbr/>Time</span><a href="#runAtTickTime" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1252,7 +1252,7 @@ at.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1578">@minecraft/server-gametest@1.0.0-beta.d.ts:1578</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1578">@minecraft/server-gametest@1.0.0-beta.d.ts:1578</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setBlockPermutation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Block<wbr/>Permutation</span><a href="#setBlockPermutation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1279,7 +1279,7 @@ block.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1593">@minecraft/server-gametest@1.0.0-beta.d.ts:1593</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1593">@minecraft/server-gametest@1.0.0-beta.d.ts:1593</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setBlockType" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Block<wbr/>Type</span><a href="#setBlockType" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1305,7 +1305,7 @@ location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1607">@minecraft/server-gametest@1.0.0-beta.d.ts:1607</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1607">@minecraft/server-gametest@1.0.0-beta.d.ts:1607</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setFluidContainer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Fluid<wbr/>Container</span><a href="#setFluidContainer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1331,7 +1331,7 @@ changes the type of fluid within that container.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1622">@minecraft/server-gametest@1.0.0-beta.d.ts:1622</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1622">@minecraft/server-gametest@1.0.0-beta.d.ts:1622</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="setTntFuse" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Tnt<wbr/>Fuse</span><a href="#setTntFuse" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1356,7 +1356,7 @@ changes the type of fluid within that container.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1635">@minecraft/server-gametest@1.0.0-beta.d.ts:1635</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1635">@minecraft/server-gametest@1.0.0-beta.d.ts:1635</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawn" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn</span><a href="#spawn" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1369,11 +1369,11 @@ changes the type of fluid within that container.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>simpleMobTest.ts</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">gt</span><span class="hl-0">.</span><span class="hl-4">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-3">test</span><span class="hl-0">: </span><span class="hl-8">gt</span><span class="hl-0">.</span><span class="hl-8">Test</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">attackerId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">succeedWhen</span><span class="hl-0">(() </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-4">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-4">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">gt</span><span class="hl-0">.</span><span class="hl-8">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-6">test</span><span class="hl-0">: </span><span class="hl-5">gt</span><span class="hl-0">.</span><span class="hl-5">Test</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">attackerId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">succeedWhen</span><span class="hl-0">(() </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-8">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-8">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/>
 </code><button>Copy</button></pre>
 
 <h3>Example</h3><p>spawnAdultPig.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:pig&lt;minecraft:ageable_grow_up&gt;&quot;</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0"> });</span><br/><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:pig&lt;minecraft:ageable_grow_up&gt;&quot;</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0"> });</span><br/><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -1392,7 +1392,7 @@ event can be specified between less than/greater than signs
 undefined.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1677">@minecraft/server-gametest@1.0.0-beta.d.ts:1677</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1677">@minecraft/server-gametest@1.0.0-beta.d.ts:1677</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawnAtLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn<wbr/>At<wbr/>Location</span><a href="#spawnAtLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1405,7 +1405,7 @@ undefined.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>spawnAdultPig.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:pig&lt;minecraft:ageable_grow_up&gt;&quot;</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-2">&quot;minecraft:pig&lt;minecraft:ageable_grow_up&gt;&quot;</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -1424,7 +1424,7 @@ event can be specified between less than/greater than signs
 undefined.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1699">@minecraft/server-gametest@1.0.0-beta.d.ts:1699</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1699">@minecraft/server-gametest@1.0.0-beta.d.ts:1699</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawnItem" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn<wbr/>Item</span><a href="#spawnItem" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1437,7 +1437,7 @@ undefined.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>spawnEmeralds.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">oneEmerald</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-4">ItemStack</span><span class="hl-0">(</span><span class="hl-3">MinecraftItemTypes</span><span class="hl-0">.</span><span class="hl-3">emerald</span><span class="hl-0">, </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">);</span><br/><span class="hl-0">       </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">fiveEmeralds</span><span class="hl-0"> = </span><span class="hl-5">new</span><span class="hl-0"> </span><span class="hl-4">ItemStack</span><span class="hl-0">(</span><span class="hl-3">MinecraftItemTypes</span><span class="hl-0">.</span><span class="hl-3">emerald</span><span class="hl-0">, </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">);</span><br/><br/><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawnItem</span><span class="hl-0">(</span><span class="hl-3">oneEmerald</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">3.5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">3</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawnItem</span><span class="hl-0">(</span><span class="hl-3">fiveEmeralds</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">3</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">oneEmerald</span><span class="hl-0"> = </span><span class="hl-3">new</span><span class="hl-0"> </span><span class="hl-8">ItemStack</span><span class="hl-0">(</span><span class="hl-6">MinecraftItemTypes</span><span class="hl-0">.</span><span class="hl-6">emerald</span><span class="hl-0">, </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">);</span><br/><span class="hl-0">       </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">fiveEmeralds</span><span class="hl-0"> = </span><span class="hl-3">new</span><span class="hl-0"> </span><span class="hl-8">ItemStack</span><span class="hl-0">(</span><span class="hl-6">MinecraftItemTypes</span><span class="hl-0">.</span><span class="hl-6">emerald</span><span class="hl-0">, </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-7">0</span><span class="hl-0">);</span><br/><br/><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawnItem</span><span class="hl-0">(</span><span class="hl-6">oneEmerald</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">3.5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">3</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawnItem</span><span class="hl-0">(</span><span class="hl-6">fiveEmeralds</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">3</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">1.5</span><span class="hl-0"> });</span><br/><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -1453,7 +1453,7 @@ undefined.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Entity.html" class="tsd-signature-type tsd-kind-class">Entity</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1722">@minecraft/server-gametest@1.0.0-beta.d.ts:1722</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1722">@minecraft/server-gametest@1.0.0-beta.d.ts:1722</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawnSimulatedPlayer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn<wbr/>Simulated<wbr/>Player</span><a href="#spawnSimulatedPlayer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1480,7 +1480,7 @@ undefined.</p>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">gameMode</span>: <a href="../enums/_minecraft_server_1_2_0_beta.GameMode.html" class="tsd-signature-type tsd-kind-enum">GameMode</a></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_gametest_1_0_0_beta.SimulatedPlayer.html" class="tsd-signature-type tsd-kind-class">SimulatedPlayer</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1735">@minecraft/server-gametest@1.0.0-beta.d.ts:1735</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1735">@minecraft/server-gametest@1.0.0-beta.d.ts:1735</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawnWithoutBehaviors" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn<wbr/>Without<wbr/>Behaviors</span><a href="#spawnWithoutBehaviors" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1505,7 +1505,7 @@ like .walkTo to create predictable mob actions.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Entity.html" class="tsd-signature-type tsd-kind-class">Entity</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1752">@minecraft/server-gametest@1.0.0-beta.d.ts:1752</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1752">@minecraft/server-gametest@1.0.0-beta.d.ts:1752</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spawnWithoutBehaviorsAtLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spawn<wbr/>Without<wbr/>Behaviors<wbr/>At<wbr/>Location</span><a href="#spawnWithoutBehaviorsAtLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1530,7 +1530,7 @@ like .walkTo to create predictable mob actions.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_2_0_beta.Entity.html" class="tsd-signature-type tsd-kind-class">Entity</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1765">@minecraft/server-gametest@1.0.0-beta.d.ts:1765</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1765">@minecraft/server-gametest@1.0.0-beta.d.ts:1765</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="spreadFromFaceTowardDirection" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>spread<wbr/>From<wbr/>Face<wbr/>Toward<wbr/>Direction</span><a href="#spreadFromFaceTowardDirection" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1544,7 +1544,7 @@ particular location. If not, an exception is thrown.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>spreadFromFaceTowardDirection.js</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spreadFromFaceTowardDirection</span><span class="hl-0">({ </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0"> }, </span><span class="hl-3">Direction</span><span class="hl-0">.</span><span class="hl-3">south</span><span class="hl-0">, </span><span class="hl-3">Direction</span><span class="hl-0">.</span><span class="hl-3">down</span><span class="hl-0">);</span><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spreadFromFaceTowardDirection</span><span class="hl-0">({ </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">1</span><span class="hl-0"> }, </span><span class="hl-6">Direction</span><span class="hl-0">.</span><span class="hl-6">south</span><span class="hl-0">, </span><span class="hl-6">Direction</span><span class="hl-0">.</span><span class="hl-6">down</span><span class="hl-0">);</span><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -1565,7 +1565,7 @@ specify a direction.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1790">@minecraft/server-gametest@1.0.0-beta.d.ts:1790</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1790">@minecraft/server-gametest@1.0.0-beta.d.ts:1790</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="startSequence" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>start<wbr/>Sequence</span><a href="#startSequence" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1580,7 +1580,7 @@ out sequentially within a GameTest.</p>
 creating a set of steps.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1806">@minecraft/server-gametest@1.0.0-beta.d.ts:1806</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1806">@minecraft/server-gametest@1.0.0-beta.d.ts:1806</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeed" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed</span><a href="#succeed" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1594,7 +1594,7 @@ creating a set of steps.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1815">@minecraft/server-gametest@1.0.0-beta.d.ts:1815</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1815">@minecraft/server-gametest@1.0.0-beta.d.ts:1815</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedIf" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>If</span><a href="#succeedIf" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1624,7 +1624,7 @@ this function will have .assertXyz method calls within it.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1829">@minecraft/server-gametest@1.0.0-beta.d.ts:1829</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1829">@minecraft/server-gametest@1.0.0-beta.d.ts:1829</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedOnTick" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>On<wbr/>Tick</span><a href="#succeedOnTick" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1646,7 +1646,7 @@ successful.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1841">@minecraft/server-gametest@1.0.0-beta.d.ts:1841</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1841">@minecraft/server-gametest@1.0.0-beta.d.ts:1841</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedOnTickWhen" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>On<wbr/>Tick<wbr/>When</span><a href="#succeedOnTickWhen" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1681,7 +1681,7 @@ successfully, the test is marked as a success.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1858">@minecraft/server-gametest@1.0.0-beta.d.ts:1858</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1858">@minecraft/server-gametest@1.0.0-beta.d.ts:1858</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedWhen" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>When</span><a href="#succeedWhen" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1697,7 +1697,7 @@ not throw an exception.</p>
 <h3>Throws</h3><p>This function can throw errors.</p>
 
 <h3>Example</h3><p>simpleMobTest.ts</p>
-<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-3">gt</span><span class="hl-0">.</span><span class="hl-4">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-3">test</span><span class="hl-0">: </span><span class="hl-8">gt</span><span class="hl-0">.</span><span class="hl-8">Test</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">attackerId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">spawn</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, { </span><span class="hl-3">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-3">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">succeedWhen</span><span class="hl-0">(() </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-3">test</span><span class="hl-0">.</span><span class="hl-4">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-3">victimId</span><span class="hl-0">, </span><span class="hl-5">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-4">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-4">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
+<pre><code class="language-typescript"><span class="hl-0">       </span><span class="hl-6">gt</span><span class="hl-0">.</span><span class="hl-8">register</span><span class="hl-0">(</span><span class="hl-2">&quot;StarterTests&quot;</span><span class="hl-0">, </span><span class="hl-2">&quot;simpleMobTest&quot;</span><span class="hl-0">, (</span><span class="hl-6">test</span><span class="hl-0">: </span><span class="hl-5">gt</span><span class="hl-0">.</span><span class="hl-5">Test</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">attackerId</span><span class="hl-0"> = </span><span class="hl-2">&quot;fox&quot;</span><span class="hl-0">;</span><br/><span class="hl-0">         </span><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">victimId</span><span class="hl-0"> = </span><span class="hl-2">&quot;chicken&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">attackerId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">5</span><span class="hl-0"> });</span><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">spawn</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, { </span><span class="hl-6">x:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">y:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0">, </span><span class="hl-6">z:</span><span class="hl-0"> </span><span class="hl-7">2</span><span class="hl-0"> });</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">true</span><span class="hl-0">);</span><br/><br/><span class="hl-0">         </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">succeedWhen</span><span class="hl-0">(() </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">           </span><span class="hl-6">test</span><span class="hl-0">.</span><span class="hl-8">assertEntityPresentInArea</span><span class="hl-0">(</span><span class="hl-6">victimId</span><span class="hl-0">, </span><span class="hl-3">false</span><span class="hl-0">);</span><br/><span class="hl-0">         });</span><br/><span class="hl-0">       })</span><br/><span class="hl-0">         .</span><span class="hl-8">maxTicks</span><span class="hl-0">(</span><span class="hl-7">400</span><span class="hl-0">)</span><br/><span class="hl-0">         .</span><span class="hl-8">structureName</span><span class="hl-0">(</span><span class="hl-2">&quot;gametests:mediumglass&quot;</span><span class="hl-0">);</span><br/><br/>
 </code><button>Copy</button></pre>
 </div>
 <div class="tsd-parameters">
@@ -1716,7 +1716,7 @@ successfully, the test is marked as a success.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1893">@minecraft/server-gametest@1.0.0-beta.d.ts:1893</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1893">@minecraft/server-gametest@1.0.0-beta.d.ts:1893</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedWhenBlockPresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>When<wbr/>Block<wbr/>Present</span><a href="#succeedWhenBlockPresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1750,7 +1750,7 @@ the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1913">@minecraft/server-gametest@1.0.0-beta.d.ts:1913</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1913">@minecraft/server-gametest@1.0.0-beta.d.ts:1913</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedWhenEntityHasComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>When<wbr/>Entity<wbr/>Has<wbr/>Component</span><a href="#succeedWhenEntityHasComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1789,7 +1789,7 @@ component.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1940">@minecraft/server-gametest@1.0.0-beta.d.ts:1940</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1940">@minecraft/server-gametest@1.0.0-beta.d.ts:1940</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="succeedWhenEntityPresent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>succeed<wbr/>When<wbr/>Entity<wbr/>Present</span><a href="#succeedWhenEntityPresent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1825,7 +1825,7 @@ the specified type is not present.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1967">@minecraft/server-gametest@1.0.0-beta.d.ts:1967</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1967">@minecraft/server-gametest@1.0.0-beta.d.ts:1967</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="triggerInternalBlockEvent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>trigger<wbr/>Internal<wbr/>Block<wbr/>Event</span><a href="#triggerInternalBlockEvent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1854,7 +1854,7 @@ minecraft:grow_sideways.</p>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">eventParameters</span>: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1986">@minecraft/server-gametest@1.0.0-beta.d.ts:1986</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1986">@minecraft/server-gametest@1.0.0-beta.d.ts:1986</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="until" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>until</span><a href="#until" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1882,7 +1882,7 @@ condition is true.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1999">@minecraft/server-gametest@1.0.0-beta.d.ts:1999</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L1999">@minecraft/server-gametest@1.0.0-beta.d.ts:1999</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="walkTo" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>walk<wbr/>To</span><a href="#walkTo" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1914,7 +1914,7 @@ navigation as soon as they intersect the target location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2017">@minecraft/server-gametest@1.0.0-beta.d.ts:2017</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2017">@minecraft/server-gametest@1.0.0-beta.d.ts:2017</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="walkToLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>walk<wbr/>To<wbr/>Location</span><a href="#walkToLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1946,7 +1946,7 @@ navigation as soon as they intersect the target location.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2035">@minecraft/server-gametest@1.0.0-beta.d.ts:2035</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2035">@minecraft/server-gametest@1.0.0-beta.d.ts:2035</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="worldBlockLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>world<wbr/>Block<wbr/>Location</span><a href="#worldBlockLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1971,7 +1971,7 @@ structure is also taken into account.</p>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/_minecraft_server_1_2_0_beta.Vector3.html" class="tsd-signature-type tsd-kind-interface">Vector3</a></h4><p>An absolute location relative to the GameTest command block.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2051">@minecraft/server-gametest@1.0.0-beta.d.ts:2051</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2051">@minecraft/server-gametest@1.0.0-beta.d.ts:2051</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="worldLocation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>world<wbr/>Location</span><a href="#worldLocation" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -1996,7 +1996,7 @@ also taken into account.</p>
 <h4 class="tsd-returns-title">Returns <a href="../interfaces/_minecraft_server_1_2_0_beta.Vector3.html" class="tsd-signature-type tsd-kind-interface">Vector3</a></h4><p>An absolute location relative to the GameTest command block.</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/587cfef/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2067">@minecraft/server-gametest@1.0.0-beta.d.ts:2067</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/0cd8f3f/lib/1.19.80/@minecraft/server-gametest@1.0.0-beta.d.ts#L2067">@minecraft/server-gametest@1.0.0-beta.d.ts:2067</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
