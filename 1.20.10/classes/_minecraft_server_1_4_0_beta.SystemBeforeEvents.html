@@ -38,7 +38,7 @@ error.</p>
 <ul class="tsd-hierarchy">
 <li><span class="target">SystemBeforeEvents</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/755d7b1/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15330">@minecraft/server@1.4.0-beta/index.d.ts:15330</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/d5f403b/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15753">@minecraft/server@1.4.0-beta/index.d.ts:15753</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -61,7 +61,7 @@ error.</p>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_4_0_beta.SystemBeforeEvents.html" class="tsd-signature-type tsd-kind-class">SystemBeforeEvents</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/755d7b1/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15331">@minecraft/server@1.4.0-beta/index.d.ts:15331</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/d5f403b/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15754">@minecraft/server@1.4.0-beta/index.d.ts:15754</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member"><a id="watchdogTerminate" class="tsd-anchor"></a>
@@ -75,11 +75,11 @@ To prevent shutdown, set the event&#39;s cancel property to
 true.</p>
 
 <h4>Example</h4><p>cancelTerminate.js</p>
-<pre><code class="language-js"><span class="hl-6">import</span><span class="hl-0"> { </span><span class="hl-3">system</span><span class="hl-0"> } </span><span class="hl-6">from</span><span class="hl-0"> </span><span class="hl-2">&quot;@minecraft/server&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-3">system</span><span class="hl-0">.</span><span class="hl-3">beforeEvents</span><span class="hl-0">.</span><span class="hl-3">watchdogTerminate</span><span class="hl-0">.</span><span class="hl-4">subscribe</span><span class="hl-0">((</span><span class="hl-3">event</span><span class="hl-0">) </span><span class="hl-5">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-3">event</span><span class="hl-0">.</span><span class="hl-3">cancel</span><span class="hl-0"> = </span><span class="hl-5">true</span><span class="hl-0">;</span><br/><span class="hl-0">    </span><span class="hl-3">console</span><span class="hl-0">.</span><span class="hl-4">warn</span><span class="hl-0">(</span><br/><span class="hl-0">        </span><span class="hl-2">`[Watchdog] Canceled critical exception of type &#39;</span><span class="hl-5">${</span><span class="hl-3">event</span><span class="hl-11">.</span><span class="hl-3">cancelationReason</span><span class="hl-5">}</span><span class="hl-2">`</span><br/><span class="hl-0">    );</span><br/><span class="hl-0">});</span>
+<pre><code class="language-js"><span class="hl-11">import</span><span class="hl-0"> { </span><span class="hl-6">system</span><span class="hl-0"> } </span><span class="hl-11">from</span><span class="hl-0"> </span><span class="hl-2">&quot;@minecraft/server&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-6">system</span><span class="hl-0">.</span><span class="hl-6">beforeEvents</span><span class="hl-0">.</span><span class="hl-6">watchdogTerminate</span><span class="hl-0">.</span><span class="hl-8">subscribe</span><span class="hl-0">((</span><span class="hl-6">event</span><span class="hl-0">) </span><span class="hl-3">=&gt;</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-6">event</span><span class="hl-0">.</span><span class="hl-6">cancel</span><span class="hl-0"> = </span><span class="hl-3">true</span><span class="hl-0">;</span><br/><span class="hl-0">    </span><span class="hl-6">console</span><span class="hl-0">.</span><span class="hl-8">warn</span><span class="hl-0">(</span><br/><span class="hl-0">        </span><span class="hl-2">`[Watchdog] Canceled critical exception of type &#39;</span><span class="hl-3">${</span><span class="hl-6">event</span><span class="hl-9">.</span><span class="hl-6">cancelationReason</span><span class="hl-3">}</span><span class="hl-2">`</span><br/><span class="hl-0">    );</span><br/><span class="hl-0">});</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/755d7b1/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15351">@minecraft/server@1.4.0-beta/index.d.ts:15351</a></li></ul></aside></section></section></div>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/d5f403b/lib/1.20.10/@minecraft/server@1.4.0-beta/index.d.ts#L15774">@minecraft/server@1.4.0-beta/index.d.ts:15774</a></li></ul></aside></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -107,13 +107,7 @@ true.</p>
 <li><a href="../modules/_minecraft_server_admin_1_0_0_beta.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>admin@1.0.0-<wbr/>beta</span></a></li>
 <li><a href="../modules/_minecraft_server_gametest_1_0_0_beta.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>gametest@1.0.0-<wbr/>beta</span></a></li>
 <li><a href="../modules/_minecraft_server_net_1_0_0_beta.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>net@1.0.0-<wbr/>beta</span></a></li>
-<li><a href="../modules/_minecraft_server_ui_1_0_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>ui@1.0.0</span></a></li>
-<li><a href="../modules/_minecraft_server_ui_1_1_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>ui@1.1.0</span></a></li>
 <li><a href="../modules/_minecraft_server_ui_1_2_0_beta.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server-<wbr/>ui@1.2.0-<wbr/>beta</span></a></li>
-<li><a href="../modules/_minecraft_server_1_0_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server@1.0.0</span></a></li>
-<li><a href="../modules/_minecraft_server_1_1_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server@1.1.0</span></a></li>
-<li><a href="../modules/_minecraft_server_1_2_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server@1.2.0</span></a></li>
-<li><a href="../modules/_minecraft_server_1_3_0.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server@1.3.0</span></a></li>
 <li>
 <details class="tsd-index-accordion" open data-key="@minecraft/server@1.4.0-beta"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/_minecraft_server_1_4_0_beta.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@minecraft/server@1.4.0-<wbr/>beta</span></a></summary>
 <div class="tsd-accordion-details">
