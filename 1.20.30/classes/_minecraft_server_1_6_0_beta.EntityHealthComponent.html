@@ -24,13 +24,13 @@
 <li><a href="../index.html">Script API - v1.20.30</a></li>
 <li><a href="../modules/_minecraft_server_1_6_0_beta.html">@minecraft/server@1.6.0-beta</a></li>
 <li><a href="_minecraft_server_1_6_0_beta.EntityHealthComponent.html">EntityHealthComponent</a></li></ul>
-<h1>Class EntityHealthComponent<code class="tsd-tag ts-flagBeta">Beta</code> </h1></div>
+<h1>Class EntityHealthComponent</h1></div>
 <section class="tsd-panel tsd-comment">
 <div class="tsd-comment tsd-typography"><p>Defines the health properties of an entity.</p>
 </div>
 <div class="tsd-comment tsd-typography">
 <h4>Example</h4><p>getEntityHealthComponent.js</p>
-<pre><code class="language-js"><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">getEntityHealthComponent</span><span class="hl-0"> = </span><span class="hl-3">entity</span><span class="hl-0">.</span><span class="hl-4">getComponent</span><span class="hl-0">(</span><span class="hl-2">&quot;health&quot;</span><span class="hl-0">);</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">currentValue</span><span class="hl-0">;</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">defaultValue</span><span class="hl-0">;</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">effectiveMax</span><span class="hl-0">;</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">effectiveMin</span><span class="hl-0">;</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-4">resetToDefaultValue</span><span class="hl-0">();</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-4">resetToMaxValue</span><span class="hl-0">();</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-4">resetToMinValue</span><span class="hl-0">();</span><br/><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-4">setCurrentValue</span><span class="hl-0">(</span><span class="hl-7">100</span><span class="hl-0">); </span><span class="hl-10">// Assuming 100 as an example value</span><br/><br/><span class="hl-10">// Custom function to check if the health attribute is within a valid range</span><br/><span class="hl-5">function</span><span class="hl-0"> </span><span class="hl-4">isValidHealthValue</span><span class="hl-0">(</span><span class="hl-3">value</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-6">return</span><span class="hl-0"> (</span><br/><span class="hl-0">        </span><span class="hl-3">value</span><span class="hl-0"> &gt;= </span><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">effectiveMin</span><span class="hl-0"> &amp;&amp;</span><br/><span class="hl-0">        </span><span class="hl-3">value</span><span class="hl-0"> &lt;= </span><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-3">effectiveMax</span><br/><span class="hl-0">    );</span><br/><span class="hl-0">}</span><br/><br/><span class="hl-10">// Example usage of the custom isValidHealthValue function</span><br/><span class="hl-5">const</span><span class="hl-0"> </span><span class="hl-9">newHealthValue</span><span class="hl-0"> = </span><span class="hl-7">80</span><span class="hl-0">;</span><br/><span class="hl-6">if</span><span class="hl-0"> (</span><span class="hl-4">isValidHealthValue</span><span class="hl-0">(</span><span class="hl-3">newHealthValue</span><span class="hl-0">)) {</span><br/><span class="hl-0">    </span><span class="hl-3">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-4">setCurrentValue</span><span class="hl-0">(</span><span class="hl-3">newHealthValue</span><span class="hl-0">);</span><br/><span class="hl-0">}</span>
+<pre><code class="language-js"><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">getEntityHealthComponent</span><span class="hl-0"> = </span><span class="hl-6">entity</span><span class="hl-0">.</span><span class="hl-8">getComponent</span><span class="hl-0">(</span><span class="hl-2">&quot;health&quot;</span><span class="hl-0">);</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">currentValue</span><span class="hl-0">;</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">defaultValue</span><span class="hl-0">;</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">effectiveMax</span><span class="hl-0">;</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">effectiveMin</span><span class="hl-0">;</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-8">resetToDefaultValue</span><span class="hl-0">();</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-8">resetToMaxValue</span><span class="hl-0">();</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-8">resetToMinValue</span><span class="hl-0">();</span><br/><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-8">setCurrentValue</span><span class="hl-0">(</span><span class="hl-7">100</span><span class="hl-0">); </span><span class="hl-10">// Assuming 100 as an example value</span><br/><br/><span class="hl-10">// Custom function to check if the health attribute is within a valid range</span><br/><span class="hl-3">function</span><span class="hl-0"> </span><span class="hl-8">isValidHealthValue</span><span class="hl-0">(</span><span class="hl-6">value</span><span class="hl-0">) {</span><br/><span class="hl-0">    </span><span class="hl-11">return</span><span class="hl-0"> (</span><br/><span class="hl-0">        </span><span class="hl-6">value</span><span class="hl-0"> &gt;= </span><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">effectiveMin</span><span class="hl-0"> &amp;&amp;</span><br/><span class="hl-0">        </span><span class="hl-6">value</span><span class="hl-0"> &lt;= </span><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-6">effectiveMax</span><br/><span class="hl-0">    );</span><br/><span class="hl-0">}</span><br/><br/><span class="hl-10">// Example usage of the custom isValidHealthValue function</span><br/><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-4">newHealthValue</span><span class="hl-0"> = </span><span class="hl-7">80</span><span class="hl-0">;</span><br/><span class="hl-11">if</span><span class="hl-0"> (</span><span class="hl-8">isValidHealthValue</span><span class="hl-0">(</span><span class="hl-6">newHealthValue</span><span class="hl-0">)) {</span><br/><span class="hl-0">    </span><span class="hl-6">getEntityHealthComponent</span><span class="hl-0">.</span><span class="hl-8">setCurrentValue</span><span class="hl-0">(</span><span class="hl-6">newHealthValue</span><span class="hl-0">);</span><br/><span class="hl-0">}</span>
 </code><button>Copy</button></pre>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
@@ -40,7 +40,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">EntityHealthComponent</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5795">@minecraft/server@1.6.0-beta/index.d.ts:5795</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5945">@minecraft/server@1.6.0-beta/index.d.ts:5945</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -78,7 +78,7 @@
 <h4 class="tsd-returns-title">Returns <a href="_minecraft_server_1_6_0_beta.EntityHealthComponent.html" class="tsd-signature-type tsd-kind-class">EntityHealthComponent</a></h4><aside class="tsd-sources">
 <p>Overrides <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#constructor">constructor</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5796">@minecraft/server@1.6.0-beta/index.d.ts:5796</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5946">@minecraft/server@1.6.0-beta/index.d.ts:5946</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="currentValue" class="tsd-anchor"></a>
@@ -91,7 +91,7 @@
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#currentValue">currentValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5177">@minecraft/server@1.6.0-beta/index.d.ts:5177</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5343">@minecraft/server@1.6.0-beta/index.d.ts:5343</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="defaultValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>default<wbr/>Value</span><a href="#defaultValue" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">default<wbr/>Value</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
@@ -102,7 +102,7 @@
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#defaultValue">defaultValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5184">@minecraft/server@1.6.0-beta/index.d.ts:5184</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5350">@minecraft/server@1.6.0-beta/index.d.ts:5350</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="effectiveMax" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>effective<wbr/>Max</span><a href="#effectiveMax" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">effective<wbr/>Max</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
@@ -114,7 +114,7 @@ ambient components or factors.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#effectiveMax">effectiveMax</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5192">@minecraft/server@1.6.0-beta/index.d.ts:5192</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5358">@minecraft/server@1.6.0-beta/index.d.ts:5358</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="effectiveMin" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>effective<wbr/>Min</span><a href="#effectiveMin" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">effective<wbr/>Min</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
@@ -126,7 +126,7 @@ ambient components or factors.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#effectiveMin">effectiveMin</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5200">@minecraft/server@1.6.0-beta/index.d.ts:5200</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5366">@minecraft/server@1.6.0-beta/index.d.ts:5366</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="entity" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <code class="tsd-tag ts-flagBeta">Beta</code> <span>entity</span><a href="#entity" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">entity</span><span class="tsd-signature-symbol">:</span> <a href="_minecraft_server_1_6_0_beta.Entity.html" class="tsd-signature-type tsd-kind-class">Entity</a></div>
@@ -135,7 +135,7 @@ ambient components or factors.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#entity">entity</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5437">@minecraft/server@1.6.0-beta/index.d.ts:5437</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5597">@minecraft/server@1.6.0-beta/index.d.ts:5597</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="typeId" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>type<wbr/>Id</span><a href="#typeId" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">type<wbr/>Id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
@@ -144,19 +144,19 @@ ambient components or factors.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#typeId">typeId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L2199">@minecraft/server@1.6.0-beta/index.d.ts:2199</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L2380">@minecraft/server@1.6.0-beta/index.d.ts:2380</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="componentId" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>component<wbr/>Id</span><a href="#componentId" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">component<wbr/>Id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;minecraft:health&quot;</span><span class="tsd-signature-symbol"> = &#39;minecraft:health&#39;</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5797">@minecraft/server@1.6.0-beta/index.d.ts:5797</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5947">@minecraft/server@1.6.0-beta/index.d.ts:5947</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="isValid" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Valid</span><a href="#isValid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
 <li class="tsd-signature tsd-anchor-link" id="isValid.isValid-1"><span class="tsd-kind-call-signature">is<wbr/>Valid</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#isValid.isValid-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
-<li class="tsd-description"><code class="tsd-tag ts-flagBeta">Beta</code> 
+<li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><p>Whether the component is valid.</p>
 
 <div class="tsd-comment tsd-typography">
@@ -167,7 +167,7 @@ component.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#isValid">isValid</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L2211">@minecraft/server@1.6.0-beta/index.d.ts:2211</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L2391">@minecraft/server@1.6.0-beta/index.d.ts:2391</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="resetToDefaultValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>reset<wbr/>To<wbr/>Default<wbr/>Value</span><a href="#resetToDefaultValue" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -183,7 +183,7 @@ default value.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#resetToDefaultValue">resetToDefaultValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5210">@minecraft/server@1.6.0-beta/index.d.ts:5210</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5376">@minecraft/server@1.6.0-beta/index.d.ts:5376</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="resetToMaxValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>reset<wbr/>To<wbr/>Max<wbr/>Value</span><a href="#resetToMaxValue" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -199,7 +199,7 @@ defined value.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#resetToMaxValue">resetToMaxValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5220">@minecraft/server@1.6.0-beta/index.d.ts:5220</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5386">@minecraft/server@1.6.0-beta/index.d.ts:5386</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="resetToMinValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>reset<wbr/>To<wbr/>Min<wbr/>Value</span><a href="#resetToMinValue" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -215,7 +215,7 @@ defined value.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#resetToMinValue">resetToMinValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5230">@minecraft/server@1.6.0-beta/index.d.ts:5230</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5396">@minecraft/server@1.6.0-beta/index.d.ts:5396</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="setCurrentValue" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Current<wbr/>Value</span><a href="#setCurrentValue" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -235,7 +235,7 @@ defined value.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html">EntityAttributeComponent</a>.<a href="_minecraft_server_1_6_0_beta.EntityAttributeComponent.html#setCurrentValue">setCurrentValue</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/a212fc6/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5239">@minecraft/server@1.6.0-beta/index.d.ts:5239</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/JaylyDev/scriptapi-docs/blob/f20ae82/lib/1.20.30/@minecraft/server@1.6.0-beta/index.d.ts#L5405">@minecraft/server@1.6.0-beta/index.d.ts:5405</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
